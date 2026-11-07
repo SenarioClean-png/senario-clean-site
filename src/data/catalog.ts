@@ -41,7 +41,6 @@ export interface CartItem {
 const seats = (max = 12): string[] => Array.from({ length: max - 1 }, (_, i) => String(i + 2));
 const sizes = ['Solteiro', 'Viúvo', 'Casal', 'Queen', 'King', 'Super King', 'Cama Auxiliar', 'Berço'];
 const upholstery = ['Tecido', 'Couro'];
-const localVehicle = ['Bancos', 'Parte Interna'];
 const area = (label: string, helper?: string): ProductField => ({ label, kind: 'number', placeholder: '0,00', unit: 'm²', helper, required: true });
 const choice = (label: string, options: string[], required = true): ProductField => ({ label, kind: 'choice', options, required });
 const numberOf = (label: string): ProductField => ({ label, kind: 'number', placeholder: '1', required: true, integer: true });
@@ -107,7 +106,6 @@ export const productProfiles: Record<string, ProductProfile> = {
   'Protetor acolchoado': { fields: [] },
   'Récamier': { fields: [choice('Material', upholstery)] },
   'Travesseiro': { fields: [choice('Modelo', ['Comum', 'Nasa'])] },
-  'Van': { fields: [choice('Local', localVehicle, false)] },
 };
 
 export const frequencies = ['Única vez', 'Semestral', 'Anual'];

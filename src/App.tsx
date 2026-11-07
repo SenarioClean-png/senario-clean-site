@@ -16,7 +16,7 @@ type CompanyField = keyof typeof initialCompany;
 type StoreMode = 'home' | 'company';
 type UtilityPanel = 'zip' | 'recurrence' | 'coupon' | 'send' | 'privacy' | 'terms' | null;
 const enterprisePopularNames = ['Carpete', 'Cadeira', 'Sofá', 'Poltrona', 'Tapete', 'Automóvel', 'Puff', 'Colchão'];
-const enterpriseNames = [...enterprisePopularNames, 'Almofada', 'Récamier', 'Cabeceira', 'Divã', 'Parede ou teto acarpetado', 'Protetor acolchoado', 'Banqueta', 'Bebê conforto', 'Box', 'Cama para pet', 'Canto alemão', 'Carrinho de bebê', 'Chaise', 'Futton', 'Longarina', 'Moisés', 'Namoradeira', 'Pillow Top', 'Travesseiro', 'Van'];
+const enterpriseNames = [...enterprisePopularNames, 'Almofada', 'Récamier', 'Cabeceira', 'Divã', 'Parede ou teto acarpetado', 'Protetor acolchoado', 'Banqueta', 'Bebê conforto', 'Box', 'Cama para pet', 'Canto alemão', 'Carrinho de bebê', 'Chaise', 'Futton', 'Longarina', 'Moisés', 'Namoradeira', 'Pillow Top', 'Travesseiro'];
 
 const panelTitles: Record<Exclude<UtilityPanel, null>, string> = {
   zip: 'Informe seu CEP',

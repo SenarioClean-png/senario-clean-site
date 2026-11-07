@@ -133,10 +133,5 @@
     "id": "travesseiro",
     "name": "Travesseiro",
     "icon": "icons/travesseiro.png"
-  },
-  {
-    "id": "van",
-    "name": "Van",
-    "icon": "icons/van.png"
   }
 ]

@@ -3,7 +3,7 @@
  * Para trocar telefone, e-mail ou redes sociais, edite apenas este arquivo.
  */
 export const company = {
-  name: 'Senário',
+  name: 'Senário Clean',
   tagline: 'Limpeza de estofados',
   description: 'Limpeza e impermeabilização de estofados para casas e empresas.',
   email: 'clean.senario@gmail.com',
